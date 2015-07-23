@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Introduction to Programming Nanodegree Project</title>
+</head>
+
+<body>
+  <div>
+    <h1>Nanodegree Project</h1>
+    <br/>
+    <h2><b>Personal Information</b></h2>
+      <p><b>Name:</b>Valerie</p>
+      <p><b>Experience with Computer Science/Programming:</b> None :)</p>
+      <p><b>Learning Milestone:</b> Developing and managing a social networking site that can match independent users according to interests, and match independent users with local organizations best suited to helping each independent user fulfill stated goals.</p>
+  </div>
+
+  <br/>
+
+  <div>
+    <h2><b>Introduction</b></h2>
+      <p> A programmer is an individual with certain skills/capabilities as well as <strong>advanced technological literacy</strong>. A programmer&#39;s skills include <em>creating clear and unambiguous instructions</em>, <em>identifying problems</em> and <em>developing <strong>creative</strong> solutions</em>, <em> breaking solutions down into sets of workable steps</em>, <em>simplifying sets of data</em>, and <em>determining how different aspects of a program/group can work together</em> to solve a problem. Programmers are <strong>big-picture thinkers</strong> and <strong>problems solvers</strong> whose advanced technological literacy stems from their ability to meet a computer at its level, thinking about situations how a computer would understand them.</p>
+  </div>
+
+  <br/>
+
+  <h2><b>Knowledge Bank</b></h2>
+    <div>
+      <h3>The Web</h3>
+        <p><dfn>The World Wide Web</dfn> is an information system that helps computers communicate with each other through the internet. Individuals access the World Wide Web through their computer&#39;s browser. The user types a URL (Uniform Resource Locator) into their browser.</p>
+          <blockquote>
+            <p><dfn>URL</dfn> stands for Uniform Resource Locator. Every web page has its own URL. This is the web address that you would type into a browser if you wanted to visit that specific page. (Duckett, 2011, p. 54)</p> 
+          </blockquote>
+        <p>This URL corresponds with a specific website or webpage. The browser then uses HTTP protocol to request the website/webpage from the relevant server. The server sends the user&#39;s browser the website/webpage in HTML code. The browser translates the sent code into a visual representation. Here are some more specifics about how computers communicate through the World Wide Web.</p>
+        
+        <img src="http://www.simplimation.com/uploads/news/images/full/5-how-the-web-works.jpg" alt="a webpage or file is requested by a user through a browser and the domain name service finds the address of the website or file's server and connects the user's browser to the server which then responds to the request with the data for the webpage or file."/>
+
+        <p>For even further, more detailed information, please follow this link: <a href="http://www.computerhope.com/issues/ch001358.htm">How Do Computers Connect to Each Other Over the Internet</a></p>
+    </div>
+
+    <div>
+      <h3>HTML</h3>
+        <p>Above, I stated that servers respond to browser requests with HTML code. <dfn>HTML</dfn> stands for HyperText Markup Language, and it is the main type of document on the web. It consists of text content which describes what a user should see, and markup which describes how the webpage should look. HTML also consists of references to other documents such as videos and images, and links to other pages such as this link to <a href="https://www.spotify.com">Spotify</a>&#39;s homepage, and the link I provided previously for more detailed information on how computers communicate via the internet. HTML documents are written in elements which are written in tags that specify the type of element and text.</p>
+        <h4>HTML Elements/Tags</h4>
+          <p>HTML elements are made up of at least one tag. Most <dfn>HTML elements</dfn> are made up of two tags that specify the type of element: an opening tag and a closing tag. The opening tag shows where the element begins to be relevant. The closing tag shows where the element stops being relevant. For example, links are written with an anchor element, which is written with anchor tags.</p>
+
+          <img src="https://blogtutor.com/wp-content/uploads/2012/01/anchor-tag.gif"/>
+          
+          <p>The &quot;href&quot; inside is called an attribute. <dfn>Attributes</dfn> are modifiers of an element that usually appear in the opening tag. There are many kinds of attributes, and they each have a unique modification. The href attribute tells the browser where the link is supposed to take the user. What comes after the equal sign is called a value. Every attribute has a value. The value for the href attribute is the url of the destination webpage.</p>
+          <p>Some elements have only an opening tag. These tags are called <dfn>void tags</dfn>. They have only an opening tag because they have no content. No content means there is no need to tell the computer where the element stops being relevant. It is relevant only at the point of contact. One example of a void tag is the tag used to insert images. It looks like this:
+          &lt;img src=&quot;url&quot; alt=&quot;text description&quot;&gt;. In terms of an HTML document, an image begins and ends at one exact point, so it has no need for a closing tag. It closes at the opening. In the image tag I presented, there are two modifiers: the source (src) modifier, and the alternate text (alt) modifier.</p>
+
+                                    <!--I consider it importantt to make sure people reading my code can understand the logical process of my coding and formatting. One way I accomplish this is through indentation. Within this section on HTML, I use indentation to show what belongs to the heading, and what belongs to each sub-heading. This way my code is easy to follow and edit.-->
+
+        <h4>HTML Element Classification</h4>
+          <p>Elements are classified into several group: inline, block, hidden, and container.</p>
+          <p><b><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements">Block Elements</a></b></p>
+          <p>Block elements always appear on new lines before and after elements. Some examples of block elements are header elements (&lt;h1&gt;), paragraph elements (&lt;p&gt;), list elements (&lt;ul&gt;, and &lt;li&gt;), and table elements (&lt;table&gt;). Block elements will always have their own lines and their own spaces, because there is an invisible box around the element.</p>
+          <p><b><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente">Inline Elements</a></b></p>
+          <p>Inline elements do not force new lines before or after its placement. They only consume as much space as necessary, and sit within block-level element spaces/boxes. Some examples of inline elements are break tags (&lt;br&gt;), anchor tags (&lt;a&gt;), and image tags (&lt;img&gt;).</p>
+          <p><b>Container Elements</b></p>
+          <p>Container elements are elements that do nothing but contain stuff inside themselves. If one block-level element sits inside another block-level element, then the outer box is the containing element (Duckett, 2011, p. 362). Container elements are common when creating complex structures for webpages. For example, a programmer can group all the elements of a website&#39;s heading into one box (Duckett, 2011, p. 362). Two examples of container elements are: div (&lt;div&gt;) and span (&lt;span&gt;).</p>
+        <h4>HTML Document Structure</h4>
+          <p>HTML documents, like essays, have a heading and a body. The head contains the webpage’s title, metadata, and other random references such as JavaScript and CSS. Details and references nested within the head element, do not appear on the webpage. The title element (&lt;title&gt;) nested within the head element will appear at the top of a user&#39;s browser window or tab. Elements nested within the body element (&lt;body&gt;) are displayed on the webpage. Some examples of elements nested within the body element are headings, paragraphs, lists, images, and links.</p>
+    </div>
+
+                                  <!--I am grouping my content according to relevance and imagined structuring. Currently, I am considering having the divs consisting of my information on HTML placed beside eachother. I am concerned this will make a portion of the webpage that will be too text-heavy. I am using span for the table below in order to control the appearance of the content of the table elements using CSS.-->
+
+    <div>
+      <h3>HTML vs. CSS vs. JavaScript</h3>
+        <span>
+          <table>
+            <tr>
+              <th></th>
+              <th scope="col">HTML</th>
+              <th scope="col">CSS</th>
+              <th scope="col">JavaScript</th>
+            </tr>
+            <tr>
+              <th scope="row">Function</th>
+              <td>Controls webpage structure</td>
+              <td>Controls webpage style/presentation</td>
+              <td>Controls webpage behavior</td>
+            </tr>
+            <tr>
+              <th scope="row">Benefits</th>
+              <td>Helps a programmer organize the page in a way that is logical and mentally attractive</td>
+              <td>Helps a programmer adjust how the webpage is presented to enhance its visual attractiveness</td>
+              <td>Helps a programmer add interactivity to a webpage by accessing and modifying webpage content</td>
+            </tr>
+          </table>
+        </span>
+                                      <!--My table is not pretty right now. The words are a bit smushed together. Reading is difficult. The table is easier to read when the browser window occupies only half the screen (therefore wrapping the words). This table will be fixed with CSS. I may decide to control the size of the table and allow for effective wrapping, control the padding around the individual cells to create space between each cell, or both.-->
+
+        <p>HTML, CSS, and JavaScript are each languages with different purposes when developing a website. In the chart above, we can see the differences between the functions and benefits of each language. Each language has its own syntax and rules for a programmer to follow. HTML uses its syntax and rules to manipulate a webpage&#39;s structure. CSS&#39;s structure to control manipulate the appearance of the webpage by adjusting aspects such as size, color, background, border, position, etcetera. JavaScript&#39;s syntax and rules are used to adjust the way a webpage behaves according to a circumstances such as user activity. These three languages can be used together to create dynamic webpages. To tie structure and style together, HTML documents can provide a browser with information on what style to use and where to reference the style from. (Duckett, 2014, p. 44)</p>
+      <h3>On Structure</h3>
+        <p>It is now understood that HTML controls structure. Now it is important to understand how HTML controls structure, and how browsers support and understand that structure. First, HTML maintains an easily adjustable structure by looking at content in terms of boxes. The defined default contours of boxes that allows them to easily sit flush against eachother with no wasted space or confusion makes it easier for programmers/web-builders to re-arrange parts of a webpage quickly and easily. In HTML, smaller boxes can and often do exist within larger boxes. This is how the div element functions. It groups relevant parts of a webpage together. In essence, it places smaller boxes within one large box. The large box is the div element. A header on a webpage can be one box consisting of two smaller boxes: a logo, and a title. Other small boxes throughout a page can include paragraphs, images, contact information, videos, and more.</p>
+        <p>Browsers have a way of understanding and supporting HTML structure called DOM (Document Object Model). The Document Object Model is a cross-platform with language-independent convention for representing and interacting with elements in HTML (and other markup languages). Language-independent means the DOM is not a language, unlike HTML and CSS, and does not use a langauge to function. It is a way of understanding a language. The DOM is a hierarchical tree structure representation of the sections and subsections of an HTML document and therefore webpage. Here is an example:</p>
+
+          <img src="http://produceconsumerobot.com/mobileweb2012/content/domfigure2.gif"/>
+
+        <p>The example above shows a webpage with a head element containing a title, CSS reference, and script reference; and a body containing two div sections. The first div consists of a heading with text, a paragraph with text, and an organized list with three parts made of text. The second div consists of a heading with text, a paragraph with text, and a table consisting of two rows with two cells of textual data per row. The DOM helps browsers understand the structural instructions HTML documents give.</p>
+      </div>
+
+      <div>
+      <h3>Thinking Like a Computer</h3>
+        <p>Computers take instructions at face value. This means they only do exactly what they are told. Fortunately, this means a programmer (someone who knows a computer&#39;s language/syntax) can tell a computer to do anything he or she wants as long as what the programmer wants can be written in code. Unfortunately, this also means computers are not forgiving. Because they can only put out what a programmer writes, incorrect or missing code can result in large problems.</p>
+      </div>
+
+      <div>
+      <h3>Current Tools of the Trade</h3>
+        <ul>
+          <li><b>ScratchPad:</b> Immediate feedback and great for beginners, but low on professionalism and power. Supports only HTML and CSS</li>
+          <br/>
+          <li><b>CodePen:</b> Short speed of feedback and high level of power and professionalism, but fewer beginner-friendly features and requires an account before use. Supports main languages: HTML, CSS, and JavaScript</li>
+          <br/>
+          <li><b>Sublime:</b> Difficult to learn in the beginning and dfficult to share, but has a reasonable fast speed of feedback through a browser and the highest level of power and professionalism. Supports all languages, and is best for writing complex code and saving code to a computer.</li>
+        </ul>
+    </div>
+
+  <div>
+    <h2><b>References</b></h2>
+      <p>Duckett, J. (2011). HTML &amp; CSS: design and build websites. Indianapolis, Indiana, United States: John Wiley &amp; Sons, Inc.</p>
+      <p>Duckett, J. (2014). JavaScript &amp; JQuery: Interactive front-end web development. Indianapolis, Indiana, United States: John Wiley &amp; Sons, Inc.</p>
+  </div>
+</body>
+
+</html>
